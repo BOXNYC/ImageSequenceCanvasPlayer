@@ -3,7 +3,7 @@ JavaScript image sequence player rendered to canvas.
 
 ```JavaScript
 	// How to use:
-	import ImageSequenceCanvasPlayer from './ImageSequenceCanvasPlayer.js'
+	import ImageSequenceCanvasPlayer from './ImageSequenceCanvasPlayer.mjs'
 	const player = new ImageSequenceCanvasPlayer('#myCanvas', ['image1.jpg', 'image2.jpg'], {
 		framesPerSecond: 10,
 		playOnLoad: true,
