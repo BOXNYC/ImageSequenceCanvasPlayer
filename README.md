@@ -13,4 +13,4 @@ JavaScript image sequence player rendered to canvas.
 	});
 ```
 
-Try it: https://codesandbox.io/p/sandbox/imagesequencecanvasplayer-c72dws
+Try it: [codesandbox.io](https://codesandbox.io/p/sandbox/imagesequencecanvasplayer-c72dws)
