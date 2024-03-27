@@ -12,3 +12,5 @@ JavaScript image sequence player rendered to canvas.
 		onLoad: () => console.log('Images loaded'),
 	});
 ```
+
+Try it: https://codesandbox.io/p/sandbox/imagesequencecanvasplayer-c72dws
