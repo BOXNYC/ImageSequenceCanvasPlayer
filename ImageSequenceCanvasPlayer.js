@@ -256,4 +256,13 @@ export default class ImageSequenceCanvasPlayer {
 		if (this.isPlaying) return;
 		this.play();
 	}
+	
+	seek(frameIndex, delay = 0) {
+		const seek = ()=> {
+			this.currentFrameIndex = frameIndex;
+			this.renderFrame(frameIndex);
+		}
+		if (!frameIndex) seek();
+		else setTimeout(seek, delay);
+	}
 }
